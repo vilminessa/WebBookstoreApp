@@ -230,3 +230,49 @@ body {
     justify-content: center;
     align-items: baseline;
 }
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    gap: 3px; /* Отступы между карточками */
+}
+
+.card {
+    flex: 1; /* Разрешаем карточкам растягиваться */
+    min-width: 0; /* Убираем минимальную ширину, чтобы карточки могли сжиматься */
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-text {
+    flex: 1;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    margin-left: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #333;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+    .social-icon:hover {
+        color: #007bff;
+    }
+
+@media (max-width: 600px) {
+    .social-icons {
+        display: none;
+    }
+}
