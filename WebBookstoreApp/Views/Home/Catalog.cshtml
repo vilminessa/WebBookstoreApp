@@ -1,6 +1,22 @@
 ﻿@{
-    ViewData["Title"] = "Catalog";
+    ViewData["Title"] = "Каталог";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="catalog-container flex-center">
+    <div class="genre-buttons W985">
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Detect">Детективы</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Fantasy">Фантастика</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Adventure">Приключения</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Romance">Романы</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Horror">Ужасы</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="ScienceFiction">Научная фантастика</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Classics">Классика</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="NonFiction">Нон-фикшн</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Children">Детские книги</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Biography">Биографии</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Educational">Образовательные</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Poetry">Поэзия</a>
+        <a class="genre-button" asp-area="" asp-controller="Home" asp-action="Historical">Исторические</a>
+    </div>
+</div>

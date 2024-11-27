@@ -35,6 +35,59 @@ namespace WebBookstoreApp.Controllers
             return View();
         }
 
+        public IActionResult Detect()
+        {
+            return View();
+        }
+        public IActionResult Fantasy()
+        {
+            return View();
+        }
+        public IActionResult Adventure()
+        {
+            return View();
+        }
+        public IActionResult Romance()
+        {
+            return View();
+        }
+        public IActionResult Horror()
+        {
+            return View();
+        }
+        public IActionResult ScienceFiction()
+        {
+            return View();
+        }
+        public IActionResult Classics()
+        {
+            return View();
+        }
+        public IActionResult NonFiction()
+        {
+            return View();
+        }
+        public IActionResult Children()
+        {
+            return View();
+        }
+        public IActionResult Biography()
+        {
+            return View();
+        }
+        public IActionResult Educational()
+        {
+            return View();
+        }
+        public IActionResult Poetry()
+        {
+            return View();
+        }
+        public IActionResult Historical()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
