@@ -61,3 +61,28 @@ body {
 }
 
 #checkbox {display: none;}
+
+.BackBoock {
+    background-image: url('/Images/Books.jpg'); /* Путь к изображению */
+    background-size: cover; /* Покрывает весь экран */
+    background-repeat: no-repeat; /* Не повторяется */
+    background-attachment: scroll;
+    background-position: center; /* Центрирует изображение */
+    backdrop-filter:blur(5px);
+}
+.BackZnay {
+    background-image: url('/Images/svg/book.svg'); /* Путь к вашему SVG изображению */
+    background-size:contain; /* Покрывает весь элемент */
+    background-repeat: no-repeat; /* Не повторяется */
+    background-position: center; /* Центрирует изображение */
+    display: inline-block;
+    width: 100px; /* Ширина элемента */
+    height: 50px; /* Высота элемента */
+    text-align: center;
+    line-height: 50px; /* Выравнивание текста по вертикали */
+    color: white; /* Цвет текста */
+    font-weight: bold; /* Жирный текст */
+}
+.marg10 {
+    margin:10px;
+}

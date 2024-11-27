@@ -6,6 +6,8 @@
     position: relative;
     z-index: 0;
     border-radius: 12px;
+    text-decoration: none;
+    min-width: 20px;
 }
 
     .btn-rgb::after {
@@ -53,15 +55,18 @@
 /* hover */
 .btn-rgb:hover::before {
     opacity: 1;
+    text-decoration:solid;
 }
 
 .btn-rgb:active:after {
     background: transparent;
+    text-decoration: solid;
 }
 
 .btn-rgb:active {
     color: #000;
     font-weight: bold;
+    text-decoration: solid;
 }
 
 /* Black White background button */
